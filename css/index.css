@@ -40,9 +40,7 @@ body{
 header{
     max-height: max-content;
     min-height: max-content;
-    text-align: center;
     background-image: linear-gradient(to bottom, var(--color3), var(--color5) 70%);
-    padding-bottom: 30px;
     border-bottom: solid 2px var(--color4);
 }
 
@@ -52,6 +50,7 @@ header h1{
     font-weight: normal;
     color: #ffffff;
     text-shadow: 3px 3px 5px #0000007c;
+    text-align: center;
 }
 
 header p{
@@ -60,6 +59,26 @@ header p{
     font-weight: 200;
     color: #ffffff;
     text-shadow: 3px 3px 5px #0000007c;
+    text-align: center;
+}
+
+header nav{
+    padding: 10px;
+    height: 65px;
+}
+
+nav > a > img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin-left: 3%;
+}
+
+nav > a > img:hover{
+    background-color: #ffffff7f;
+    padding: 5px;
+    transition-duration: .5s;
+    border-radius: 10px;
 }
 
 /*Main Content*/
